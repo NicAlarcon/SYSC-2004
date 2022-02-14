@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TicTacToeGame
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game.\r\n\ \r\n\ \r\n\ @author\ Nicolas\ Alarcon-Belanger\r\n\ @studentNumber\ 101066600\r\n\ @version\ 03-26-2019\r\n
+comment1.params=
+comment1.target=void\ play()
+comment1.text=\r\n\ Automatically\ creates\ new\ instance\ of\ TicTacToeGame\r\n
+comment2.params=
+comment2.target=TicTacToeGame()
+comment2.text=\ \r\n\ Constructs\ a\ new\ JFrame\ containing\ a\ JPanel,\ and\ JMenuBar.\r\n\ Actionlisteners\ assigned\ to\ each\ button\ used\ in\ the\ content\ pane.\r\n
+comment3.params=row\ col
+comment3.target=void\ hasWinner(int,\ int)
+comment3.text=\r\n\ Method\ used\ to\ check\ the\ each\ position\ of\ the\ board\ for\ a\ winner\r\n\ @param\ row\ of\ the\ board\r\n\ @param\ column\ of\ the\ board\r\n
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ clearBoard()
+comment5.text=\r\n\ Method\ used\ to\ reset\ the\ boards\ button\ tiles\ \r\n
+comment6.params=
+comment6.target=void\ disableButtons()
+comment6.text=\r\n\ \ Method\ used\ to\ disable\ the\ buttons\ after\ a\ winner\ is\ found\r\n
+comment7.params=title
+comment7.target=void\ playMusic(java.lang.String)
+comment7.text=\r\n\ This\ method\ plays\ an\ audio\ clip\ to\ enhance\ the\ games\ "wow\ factor"\r\n\ @param\ title\ the\ title\ of\ the\ desired\ audio\ clip\ to\ be\ played\r\n
+numComments=8

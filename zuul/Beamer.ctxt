@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ The\ beamer\ sub-class\ based\ on\ the\ Item\ class.\r\n\ Class\ used\ to\ charge\ and\ fire\ a\ beamer\ device.\r\n\ Beamer\ stores\ location\ and\ transports\ player\ back\ when\ fired.\r\n\r\n\ @author\ Nicolas\ Alarcon-Belanger\r\n\ @studentNumber\ 101066600\r\n\ @version\ 2019-03-14\r\n
+comment1.params=description
+comment1.target=Beamer(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ beamer\r\n\ A\ sub-class\ constructor\ of\ Item\r\n\ By\ default\ the\ beamer\ is\ not\ charged\r\n
+comment2.params=
+comment2.target=boolean\ isCharged()
+comment2.text=\r\n\ Method\ to\ return\ if\ beamer\ is\ charged\ or\ not.\r\n
+comment3.params=room
+comment3.target=void\ charge(Room)
+comment3.text=\r\n\ Method\ to\ charge\ beamer.\r\n\ @param\ Room\ The\ room\ to\ be\ stored\ as\ the\ charged\ room.\r\n
+comment4.params=
+comment4.target=Room\ fire()
+comment4.text=\r\n\ Method\ to\ fire\ beamer.\r\n\ Checks\ if\ isCharged\ returns\ true\ to\ fire\ and\ return\ the\ beamer\ room.\r\n\ @return\ beamerRoom\ when\ beamer\ is\ charged\r\n\ @return\ null\ when\ beamer\ is\ not\ charged\r\n
+numComments=5

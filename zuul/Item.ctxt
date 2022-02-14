@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ This\ class\ is\ used\ to\ hold\ an\ item\ with\ a\ name,\ description,\ and\ weight\r\n\r\n\ @author\ Nicolas\ Alarcon-Belanger\r\n\ @studentNumber\ 101066600\r\n\ @version\ 2019-03-14\r\n
+comment1.params=name\ description\ weight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructor\ to\ create\ a\ new\ item\r\n\ @param\ Description\ This\ is\ used\ for\ the\ description\ of\ an\ item\r\n\ @param\ weight\ This\ is\ used\ for\ the\ weight\ of\ the\ item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLongItem()
+comment2.text=\r\n\ Method\ used\ to\ create\ a\ string\ combining\ the\ item\ description\ and\ weight\r\n\ \r\n\ @return\ the\ items\ description\ and\ weight\r\n
+comment3.params=
+comment3.target=java.lang.String\ getShortItem()
+numComments=4
